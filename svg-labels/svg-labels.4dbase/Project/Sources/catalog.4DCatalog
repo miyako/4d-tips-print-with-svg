@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="" uuid="09E955424F8D4800B43539AE6DD80BEA" collation_locale="ja">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="PERSON" uuid="4EA7BDBF68004BE18A6A421D119D1D9D" id="1">
+		<field name="ID" uuid="F2944DBFBDD14C59BEEF1CB84CDFF44D" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="name" uuid="72EFCD18638B4E5FBE46AD817BC6F56F" type="10" never_null="true" id="2"/>
+		<field name="address" uuid="5CD7968D0D73461BBC3E5829FA13DBF5" type="10" never_null="true" id="3"/>
+		<field name="photo" uuid="4828BF8E3E7E4EE190DD90DFD68EC936" type="12" never_null="true" id="4"/>
+		<field name="postcode" uuid="92104ACC3A074DF8A3F8D0966585B6F5" type="10" limiting_length="7" never_null="true" id="5"/>
+		<primary_key field_name="ID" field_uuid="F2944DBFBDD14C59BEEF1CB84CDFF44D"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="155.53515625" top="64.328125" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="5813B8ABE8264801ACDC876BA8CEDF11" type="7">
+		<field_ref uuid="F2944DBFBDD14C59BEEF1CB84CDFF44D" name="ID">
+			<table_ref uuid="4EA7BDBF68004BE18A6A421D119D1D9D" name="PERSON"/>
+		</field_ref>
+	</index>
+	<base_extra __stringCompHash="icu:63.1.0, alternate=search" __keywordBuildingHash="mecab:0.996;sys.dic:102;"/>
+</base>
