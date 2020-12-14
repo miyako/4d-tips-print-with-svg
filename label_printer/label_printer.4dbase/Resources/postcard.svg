@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  version="1.1"
+  width="100mm"
+  height="148mm">
+  <desc></desc>
+  <defs>
+    <style type="text/css">
+      textArea {
+        display-align: center;
+        text-align: center;
+        font-weight: normal;
+        fill: black;
+        font-family: "YuGothic";
+        font-size: 10;
+      }
+      textArea.postcode {
+        display-align: center;
+        text-align: center;
+        font-size: 20;
+      }
+      textArea.xl {
+        display-align: before;
+        font-family: "YuMincho";
+        text-align: start;
+        font-weight: bold;
+        font-size: 22;
+      }
+      textArea.l {
+        display-align: before;
+        text-align: start;
+        font-weight: bold;
+        font-size: 14;
+      }
+      textArea.m {
+        display-align: before;
+        text-align: start;
+        font-size: 12;
+      }
+      textArea.s {
+        display-align: before;
+        text-align: start;
+        font-size: 10;
+      }
+      rect {
+        stroke: black;
+        stroke-width: 0.1mm;
+        fill: none;
+      }
+      rect.postcode {
+        stroke: red;
+        stroke-width: 0.4mm;
+      }
+      rect.postcode-suffix {
+        stroke: red;
+        stroke-width: 0.2mm;
+      }
+      <!--#4dif Bool($1.printLabelGridLines)-->
+      rect.label {
+        stroke: red;
+        stroke-width: 0.1mm;
+        fill: none;
+      }
+      <!--#4delse-->
+      rect.label {
+        stroke: none;
+      }
+      <!--#4dendif-->
+      line {
+        stroke-width: 0.1mm;
+        stroke: black;
+        fill: none;
+      }
+      line.postcode {
+        stroke: red;
+        stroke-width: 0.4mm;
+      }
+      line.grid {
+        stroke: blue;
+      }
+    </style>
+  </defs>
+  <g transform="translate(0,0)">
+    <!--#4dif Bool($1.printGridLines)-->
+      <g>
+        <!-- horizontal grid -->
+          <line x1="0mm" y1=  "0mm" x2="297mm" y2=  "0mm" class="grid" />
+          <line x1="0mm" y1= "10mm" x2="297mm" y2= "10mm" class="grid" />
+          <line x1="0mm" y1= "20mm" x2="297mm" y2= "20mm" class="grid" />
+          <line x1="0mm" y1= "30mm" x2="297mm" y2= "30mm" class="grid" />
+          <line x1="0mm" y1= "40mm" x2="297mm" y2= "40mm" class="grid" />
+          <line x1="0mm" y1= "50mm" x2="297mm" y2= "50mm" class="grid" />
+          <line x1="0mm" y1= "60mm" x2="297mm" y2= "60mm" class="grid" />
+          <line x1="0mm" y1= "70mm" x2="297mm" y2= "70mm" class="grid" />
+          <line x1="0mm" y1= "80mm" x2="297mm" y2= "80mm" class="grid" />
+          <line x1="0mm" y1= "90mm" x2="297mm" y2= "90mm" class="grid" />
+          <line x1="0mm" y1="100mm" x2="297mm" y2="100mm" class="grid" />
+          <line x1="0mm" y1="110mm" x2="297mm" y2="110mm" class="grid" />
+          <line x1="0mm" y1="120mm" x2="297mm" y2="120mm" class="grid" />
+          <line x1="0mm" y1="130mm" x2="297mm" y2="130mm" class="grid" />
+          <line x1="0mm" y1="140mm" x2="297mm" y2="140mm" class="grid" />
+      </g>
+      <g>
+        <!-- vertical grid -->
+          <line x1=  "0mm" y1="0mm" x2=  "0mm" y2="297mm" class="grid" />
+          <line x1= "10mm" y1="0mm" x2= "10mm" y2="297mm" class="grid" />
+          <line x1= "20mm" y1="0mm" x2= "20mm" y2="297mm" class="grid" />
+          <line x1= "30mm" y1="0mm" x2= "30mm" y2="297mm" class="grid" />
+          <line x1= "40mm" y1="0mm" x2= "40mm" y2="297mm" class="grid" />
+          <line x1= "50mm" y1="0mm" x2= "50mm" y2="297mm" class="grid" />
+          <line x1= "60mm" y1="0mm" x2= "60mm" y2="297mm" class="grid" />
+          <line x1= "70mm" y1="0mm" x2= "70mm" y2="297mm" class="grid" />
+          <line x1= "80mm" y1="0mm" x2= "80mm" y2="297mm" class="grid" />
+          <line x1= "90mm" y1="0mm" x2= "90mm" y2="297mm" class="grid" />
+      </g>
+    <!--#4dendif-->
+    <g>
+      <!--#4dcode
+        // settings for this template
+        $width:=100
+        $height:=148
+        $label_x:=0
+        $label_y:=0
+        $margin_h:=0
+        $margin_v:=0
+        $rows:=1
+        $columns:=1
+      -->
+
+      <!--#4dcode
+        // setup
+        $r:=1
+        $c:=1
+        $x:=$label_x
+        $y:=$label_y
+        $max:=$rows*$columns
+        $1.init($max)
+        $1.start()
+      -->
+
+      <!--#4dloop $1.index<$1.getLength()-->
+
+      <!--#4dcode
+        C_OBJECT($value)
+        $value:=$1.get()
+      -->
+
+      <g transform="translate(52.3mm,12.0mm)">
+        <rect x= "0mm" y= "12mm" width="5.7mm" height="8mm" class="postcode" />
+        <rect x= "7mm" y= "12mm" width="5.7mm" height="8mm" class="postcode" />
+        <rect x= "14mm" y= "12mm" width="5.7mm" height="8mm" class="postcode" />
+        <line x1= "19.7mm" x2= "21.6mm" y1="16mm" y2="16mm" class="postcode" />
+        <rect x= "21.6mm" y= "12mm" width="5.7mm" height="8mm" class="postcode-suffix" />
+        <rect x= "28.4mm" y= "12mm" width="5.7mm" height="8mm" class="postcode-suffix" />
+        <rect x= "35.2mm" y= "12mm" width="5.7mm" height="8mm" class="postcode-suffix" />
+        <rect x= "42.0mm" y= "12mm" width="5.7mm" height="8mm" class="postcode-suffix" />
+
+        <textArea x= "0mm" y= "12mm" width="5.7mm" height="8mm" class="postcode"><!--#4dtext Substring($value.postcode;1;1)--></textArea>
+        <textArea x= "7mm" y= "12mm" width="5.7mm" height="8mm" class="postcode"><!--#4dtext Substring($value.postcode;2;1)--></textArea>
+        <textArea x= "14mm" y= "12mm" width="5.7mm" height="8mm" class="postcode"><!--#4dtext Substring($value.postcode;3;1)--></textArea>
+        <textArea x= "21.6mm" y= "12mm" width="5.7mm" height="8mm" class="postcode"><!--#4dtext Substring($value.postcode;4;1)--></textArea>
+        <textArea x= "28.4mm" y= "12mm" width="5.7mm" height="8mm" class="postcode"><!--#4dtext Substring($value.postcode;5;1)--></textArea>
+        <textArea x= "35.2mm" y= "12mm" width="5.7mm" height="8mm" class="postcode"><!--#4dtext Substring($value.postcode;6;1)--></textArea>
+        <textArea x= "42.0mm" y= "12mm" width="5.7mm" height="8mm" class="postcode"><!--#4dtext Substring($value.postcode;7;1)--></textArea>
+      </g>
+
+      <!-- label definition -->
+
+      <image x="$4dtext($width-30)mm" y="5mm" width="22mm" height="22mm" xlink:href="$4dtext(f_image_dataurl($value.photo))" />
+      <textArea writing-mode="tb-rl" x= "80mm" y= "38mm" width="15mm" height="$4dtext($height-38)mm" class="xl"><!--#4dtext $value.name--> 様</textArea>
+      <textArea writing-mode="tb-rl" x= "30mm" y= "48mm" width="40mm" height="$4dtext($height-48)mm" class="l"><!--#4dtext $value.address--></textArea>
+      <textArea writing-mode="tb-rl" x= "10mm" y= "68mm" width="40mm" height="$4dtext($height-68)mm" class="s"><!--#4dtext $value.address--></textArea>
+
+
+      <!--#4dcode
+        If($c<$columns)
+          $c:=$c+1
+          $x:=$x+$width+$margin_h
+        Else
+          $c:=1
+          $x:=$label_x
+          $r:=$r+1
+          $y:=$y+$height+$margin_v
+        End if
+
+        $1.next()
+      -->
+
+      <!--#4dendloop -->
+    </g>
+  </g>
+</svg>

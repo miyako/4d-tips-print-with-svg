@@ -1,0 +1,40 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"events": [],
+	"windowTitle": "",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"SVG": {
+					"type": "input",
+					"left": 0,
+					"top": 0,
+					"width": 269,
+					"height": 177,
+					"dataSourceTypeHint": "picture",
+					"contextMenu": "none",
+					"enterable": false,
+					"focusable": false,
+					"borderStyle": "none",
+					"fill": "#FFF8D6"
+				}
+			}
+		}
+	],
+	"geometryStamp": 9
+}
