@@ -1,4 +1,4 @@
-![version](https://img.shields.io/badge/version-18%2B-#EB8E5F)
+![version](https://img.shields.io/badge/version-18%2B-EB8E5F)
 
 # 4d-tips-print-with-svg
 SVGで印刷する例題
