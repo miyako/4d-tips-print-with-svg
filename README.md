@@ -1,3 +1,5 @@
+![version](https://img.shields.io/badge/version-18%2B-salmon)
+
 # 4d-tips-print-with-svg
 SVGで印刷する例題
 
