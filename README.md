@@ -1,3 +1,4 @@
+![platform](https://img.shields.io/static/v1?label=platform&message=osx-64&color=blue)
 ![version](https://img.shields.io/badge/version-18%2B-EB8E5F)
 
 # 4d-tips-print-with-svg
