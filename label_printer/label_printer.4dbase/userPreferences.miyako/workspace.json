@@ -1,11 +1,31 @@
-﻿{
+{
 	"editors": [
 		{
 			"type": "method",
+			"id": 2147483645,
+			"previousTabType": "method",
+			"previousTabID": 2147483641,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "print"
+			}
+		},
+		{
+			"type": "method",
 			"id": 2147483641,
+			"previousTabType": "method",
+			"previousTabID": 2147483644,
 			"codeDescriptor": {
 				"type": 1,
 				"methodName": "label_printer"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483644,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "TEST_postcard"
 			}
 		}
 	]

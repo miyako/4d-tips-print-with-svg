@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
-<base name="" uuid="09E955424F8D4800B43539AE6DD80BEA" collation_locale="ja">
+<base name="label_printer" uuid="09E955424F8D4800B43539AE6DD80BEA" collation_locale="ja">
 	<schema name="DEFAULT_SCHEMA"/>
 	<table name="PERSON" uuid="4EA7BDBF68004BE18A6A421D119D1D9D" id="1">
 		<field name="ID" uuid="F2944DBFBDD14C59BEEF1CB84CDFF44D" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
@@ -21,5 +21,4 @@
 			<table_ref uuid="4EA7BDBF68004BE18A6A421D119D1D9D" name="PERSON"/>
 		</field_ref>
 	</index>
-	<base_extra __stringCompHash="icu:63.1.0, alternate=search" __keywordBuildingHash="mecab:0.996;sys.dic:102;"/>
 </base>

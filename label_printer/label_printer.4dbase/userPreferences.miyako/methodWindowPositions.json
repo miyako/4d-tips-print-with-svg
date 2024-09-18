@@ -1,9 +1,9 @@
-﻿{
+{
 	"Sources/Methods/print_w.4dm": {
-		"left": 506,
-		"top": 164,
-		"width": 780,
-		"height": 658
+		"left": 490,
+		"top": 202,
+		"width": 965,
+		"height": 656
 	},
 	"Trash/Methods/(TEST_XLSX).4dm": {
 		"left": 477,
@@ -78,10 +78,10 @@
 		"height": 658
 	},
 	"Sources/Methods/label_printer.4dm": {
-		"left": 660,
-		"top": 216,
-		"width": 780,
-		"height": 684
+		"left": 527,
+		"top": 471,
+		"width": 965,
+		"height": 628
 	},
 	"Trash/Methods/(print_m_w).4dm": {
 		"left": 149,
@@ -102,10 +102,10 @@
 		"height": 658
 	},
 	"Sources/Methods/print.4dm": {
-		"left": 487,
-		"top": 190,
-		"width": 780,
-		"height": 658
+		"left": 378,
+		"top": 192,
+		"width": 965,
+		"height": 628
 	},
 	"Trash/Methods/(format_data).4dm": {
 		"left": 124,
@@ -150,15 +150,15 @@
 		"height": 658
 	},
 	"Sources/Methods/TEST_postcard.4dm": {
-		"left": 506,
-		"top": 138,
-		"width": 780,
-		"height": 684
+		"left": 378,
+		"top": 192,
+		"width": 965,
+		"height": 628
 	},
 	"Sources/Methods/TEST_label.4dm": {
-		"left": 506,
-		"top": 164,
-		"width": 780,
-		"height": 658
+		"left": 490,
+		"top": 202,
+		"width": 965,
+		"height": 656
 	}
 }
